@@ -163,4 +163,4 @@ Refactorizar --> Optimizar el codigo
             1.- Facil de mantener(escalable)
                 ---> puede crecer y mejorar sin problemas con el tiempo.
             2.- Buena legibilidad
-            3.- Mejora la eficacia
+            3.- Mejora la eficacia */
