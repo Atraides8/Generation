@@ -74,8 +74,8 @@ matriz3.splice(2); // --> [1,5]
 que le ingrese en el segundo
 parametro) */
 /* El segundo parametro de la funcion .splice(x, y, z)
-n <= 0 --> Agrega el elemento y mueve los demas uno hacia la derecha.
-n >= 0 --> Reemplaza la cantidad n de elementos desde el indice
+n >= 0 --> Agrega el elemento y mueve los demas uno hacia la derecha.
+n < 0 --> Reemplaza la cantidad n de elementos desde el indice
 indicado por el elemento que queramos */
 
 
