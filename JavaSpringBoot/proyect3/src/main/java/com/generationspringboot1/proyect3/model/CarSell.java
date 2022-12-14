@@ -25,19 +25,18 @@ public class CarSell {
     //Many to one a buysell
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "buySell_id")
-    private BuySell boySell;
+    private BuySell buySell;
 
-
-    //NO ES NECESARIO CONSTRUIR CONSTRUCTORES CON LOS ATRIBUTOS DE RELACION
     public CarSell() {
     }
 
-    public CarSell(Integer id, int cantidad) {
+    public CarSell(Integer id, int cantidad, Car car, BuySell buySell) {
         this.id = id;
         this.cantidad = cantidad;
+        this.car = car;
+        this.buySell = buySell;
     }
 
-    //Setters y getters
     public Integer getId() {
         return id;
     }
@@ -54,7 +53,28 @@ public class CarSell {
         this.cantidad = cantidad;
     }
 
-    //
+    public Car getCar() {
+        return car;
+    }
+
+    public void setCar(Car car) {
+        this.car = car;
+    }
+
+    public BuySell getBuySell() {
+        return buySell;
+    }
+
+    public void setBuySell(BuySell buySell) {
+        this.buySell = buySell;
+    }
+
+    
+
+
+
+
+    //NO ES NECESARIO CONSTRUIR CONSTRUCTORES CON LOS ATRIBUTOS DE RELACION PERO CON POSTMAN SI.
 
     
 

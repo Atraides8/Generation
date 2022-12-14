@@ -1,0 +1,64 @@
+/*Esto es un comentario */
+*{
+    background-color: aqua;
+    color: red;
+}
+h1{
+    color: indigo;
+}
+
+h2{
+    color: aqua;
+}
+
+.subtitulo{
+    color: chartreuse;
+}
+
+.parrafo {
+    color: crimson;
+}
+
+.parraforojo{
+    color: red;
+}
+
+.parrafomismocolor{
+    color: darkblue;
+}
+
+/* Por id */
+
+#parrafodos{
+    color: darkgreen;
+}
+
+#parraforosado{
+    color: pink;
+}
+
+#cuadradoext {
+    border: 3px blue dotted;
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    padding: 50px;
+}
+
+#cuadradoint {
+    background-color: aqua;
+    border: 1px black dashed;
+    height: 70px;
+    width: 70px;
+    margin: 50px;
+    padding: 20px;
+
+}
+
+{
+
+}
+
+
+

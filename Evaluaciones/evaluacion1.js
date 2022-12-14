@@ -55,7 +55,7 @@ descuento_5(lista)
 
 //Ejercicio 4:
 
-/*var lista = [200,5500,900,7000,500,300]
+var lista = [200,5500,900,7000,500,300]
 var mayor = lista[0]
 var menor = lista[0]
 
@@ -74,19 +74,20 @@ function menor_mayor(lista){
 menor_mayor(lista)
 
 
--------------------------------------------------------------------------------------
+/*-------------------------------------------------------------------------------------
 
 Ejercicio 3: */
 
-/* function verificador(lista){
+/*function verificador(lista){
     for(i = 0; i < lista.length; i++){
         if (lista[i] < 0){
-            console.log("El elemento ubicado en", lista.indexOf(i), "es un negativo no valido")
+            console.log("El elemento ubicado en", i, "es un negativo no valido.")
+            i = lista.length
         }
-        else{
-            console.log("No se encontro ningun numero negativo.")
+        else if(i == lista.length - 1){
+            console.log("Exito.")
+            i = lista.length
         }
     }
 }
-
-verificador([-10, 1, 2, 3, 4]) */
+verificador([10, 1, 2, 3, -4])*/

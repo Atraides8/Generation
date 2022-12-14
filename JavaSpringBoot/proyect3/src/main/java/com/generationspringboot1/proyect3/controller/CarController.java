@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
 
 import com.generationspringboot1.proyect3.model.Car;
 import com.generationspringboot1.proyect3.service.CarService;
@@ -18,7 +19,7 @@ import com.generationspringboot1.proyect3.service.CarService;
 //http://localhost:8080
 
 
-@Controller
+@RestController
 @CrossOrigin("*")
 public class CarController {
 

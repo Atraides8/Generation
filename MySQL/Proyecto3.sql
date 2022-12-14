@@ -1,0 +1,1 @@
+CREATE schema IF NOT EXISTS generation1_schema; #CREACION DE ESQUEMA 

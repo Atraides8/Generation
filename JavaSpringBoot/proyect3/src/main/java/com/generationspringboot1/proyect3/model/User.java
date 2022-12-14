@@ -45,9 +45,9 @@ public class User {
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     private List<BuySell> buySell;
 
-    //Constructores
     public User() {
     }
+
     public User(int id, String name, String lastName, String correo) {
         this.id = id;
         this.name = name;
@@ -55,29 +55,40 @@ public class User {
         this.correo = correo;
     }
 
-    //Getters and Setters
     public int getId() {
         return id;
     }
+
     public void setId(int id) {
         this.id = id;
     }
+
     public String getName() {
         return name;
     }
+
     public void setName(String name) {
         this.name = name;
     }
+
     public String getLastName() {
         return lastName;
     }
+
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
+
     public String getCorreo() {
         return correo;
     }
+
     public void setCorreo(String correo) {
         this.correo = correo;
     }
+
+    //Constructores
+ 
+
+
 }

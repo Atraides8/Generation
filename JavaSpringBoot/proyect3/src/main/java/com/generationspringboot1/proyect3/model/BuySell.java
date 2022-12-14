@@ -48,37 +48,58 @@ public class BuySell {
     )
     private List <Car> car;
 
-    
-
-    //Constructores
     public BuySell() {
     }
-    public BuySell(Integer id, @Range(min = 0) int monto, Date fechaCompra) {
+
+    public BuySell(Integer id, @Range(min = 0) int monto, Date fechaCompra, User user, List<Car> car) {
         this.id = id;
         this.monto = monto;
         this.fechaCompra = fechaCompra;
+        this.user = user;
+        this.car = car;
     }
 
-    //Getters y setters
     public Integer getId() {
         return id;
     }
+
     public void setId(Integer id) {
         this.id = id;
     }
+
     public int getMonto() {
         return monto;
     }
+
     public void setMonto(int monto) {
         this.monto = monto;
     }
+
     public Date getFechaCompra() {
         return fechaCompra;
     }
+
     public void setFechaCompra(Date fechaCompra) {
         this.fechaCompra = fechaCompra;
     }
 
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
+
+    public List<Car> getCar() {
+        return car;
+    }
+
+    public void setCar(List<Car> car) {
+        this.car = car;
+    }
+
     
-    
+
+
 }
